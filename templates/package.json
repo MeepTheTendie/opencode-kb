@@ -1,0 +1,19 @@
+{
+  "name": "{{PROJECT_NAME}}",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "{{DEV_COMMAND}}",
+    "build": "{{BUILD_COMMAND}}",
+    "start": "{{START_COMMAND}}",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "{{LINT_COMMAND}}"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vitest": "latest",
+    "@testing-library/react": "latest",
+    "jsdom": "latest",
+    "@testing-library/jest-dom": "latest"
+  }
+}
